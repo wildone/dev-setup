@@ -214,6 +214,7 @@ brew install ffmpeg
 ##tools
 brew cask install betterzip
 brew cask install omnigraffle
+brew cask install sitesucker
 
 #setup app store api
 brew install mas

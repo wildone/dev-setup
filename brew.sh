@@ -203,6 +203,7 @@ brew cask install gitter
 brew cask install hipchat
 brew cask install adium
 brew cask install microsoft-lync
+brew cask install telegram
 
 #media
 brew cask install spotify

@@ -95,6 +95,22 @@ function runDots() {
             echo ""
             ./android.sh
         fi
+        if [ $ARG == "java" ] || [ $ARG == "all" ]; then
+            # Run the java.sh Script
+            echo "------------------------------"
+            echo "Setting up Java environment."
+            echo "------------------------------"
+            echo ""
+            ./java.sh
+        fi
+        if [ $ARG == "dev" ] || [ $ARG == "all" ]; then
+            # Run the dev.sh Script
+            echo "------------------------------"
+            echo "Setting up Dev environment."
+            echo "------------------------------"
+            echo ""
+            ./dev.sh
+        fi
     done
 
     echo "------------------------------"

@@ -15,6 +15,7 @@
 #  9.   Reminders & Notes
 #  10.  Java Tools
 #  11.  MiscTools
+#  12.  Python
 #
 #  ---------------------------------------------------------------------------
 
@@ -396,4 +397,19 @@ alias ovatool='/Applications/VMware\ OVF\ Tool/ovatool'
 alias sha1='openssl sha1 $@'
 alias upgrade='brew update && brew upgrade && ./brew-cask-upgrade.sh'
 alias edit='subl'
+
+#   ---------------------------------------
+#   12.  Python
+#   ---------------------------------------
+
+
+# Pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+
+# Install or upgrade a global package
+# Usage: gpip install –upgrade pip setuptools virtualenv
+gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+eval "$(rbenv init -)"
 

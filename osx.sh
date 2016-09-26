@@ -233,7 +233,7 @@ sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutio
 
 # Install Screensaver
 mkdir -p "~/Library/Screen Savers"
-cp -R ./init/screensavers/matrixgl.saver "~/Library/Screen Savers/matrixgl.saver"
+cp -R ./init/screensavers/matrixgl.saver /Library/Screen\ Savers/matrixgl.saver
 
 # Set Screensaver Active
 defaults -currentHost write com.apple.screensaver "moduleDict" -dict-add "path" -string "~/Library/Screen Savers/matrixgl.saver"

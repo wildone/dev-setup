@@ -198,6 +198,8 @@ brew cask install 1password
 #brew cask install gimp
 #brew cask install inkscape
 
+brew cask install macid
+
 #dev social
 brew cask install gitter
 brew cask install hipchat

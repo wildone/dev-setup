@@ -199,6 +199,7 @@ brew cask install 1password
 #brew cask install inkscape
 
 brew cask install macid
+brew cask install licecap
 
 #dev social
 brew cask install gitter

@@ -219,6 +219,7 @@ brew install ffmpeg
 brew cask install betterzip
 brew cask install omnigraffle
 brew cask install sitesucker
+brew cask install unetbootin
 
 #setup app store api
 brew install mas

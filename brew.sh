@@ -235,6 +235,7 @@ open -a "JDownloader Installer"
 brew cask install utorrent
 #setup utorrent
 open -a "uTorrent"
+brew cask install vuse
 brew install openvpn
 brew cask install tunnelblick
 #seup little snitch

@@ -222,6 +222,9 @@ brew cask install omnigraffle
 brew cask install sitesucker
 brew cask install unetbootin
 
+#web viewers
+brew cask install webex-nbr-player
+
 #setup app store api
 brew install mas
 #install memory clean

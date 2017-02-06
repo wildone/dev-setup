@@ -248,7 +248,7 @@ Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`:
 
     $ ./.dots bootstrap osxprep brew osx
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
+Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydev.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
 
     $ ./.dots bootstrap osxprep brew osx pydata aws datastores
 
@@ -268,6 +268,8 @@ Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydata.sh`, `aws.sh`
     * Installs common Homebrew formulae and apps
 * [osx.sh](https://github.com/donnemartin/dev-setup/blob/master/osx.sh)
     * Sets up OS X defaults geared towards developers
+* [pydev.sh](https://github.com/donnemartin/dev-setup/blob/master/pydev.sh)
+    * Sets up python and virtualenv
 * [pydata.sh](https://github.com/donnemartin/dev-setup/blob/master/pydata.sh)
     * Sets up python for data analysis
 * [aws.sh](https://github.com/donnemartin/dev-setup/blob/master/aws.sh)

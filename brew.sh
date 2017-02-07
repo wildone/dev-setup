@@ -222,6 +222,7 @@ brew cask install omnigraffle
 brew cask install sitesucker
 brew cask install unetbootin
 brew install asciinema
+gem install showterm
 
 #web viewers
 brew cask install webex-nbr-player

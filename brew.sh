@@ -221,6 +221,7 @@ brew cask install betterzip
 brew cask install omnigraffle
 brew cask install sitesucker
 brew cask install unetbootin
+brew install asciinema
 
 #web viewers
 brew cask install webex-nbr-player

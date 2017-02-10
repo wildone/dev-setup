@@ -223,6 +223,7 @@ brew cask install sitesucker
 brew cask install unetbootin
 brew install asciinema
 gem install showterm
+brew cask install cord
 
 #web viewers
 brew cask install webex-nbr-player

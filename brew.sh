@@ -102,7 +102,7 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 #Core System Casks
 brew cask install java
-brew cask install java7
+#brew cask install java7
 brew cask install xquartz
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
@@ -194,7 +194,7 @@ brew cask install torbrowser
 brew cask install skype
 brew cask install slack
 brew cask install dropbox
-brew cask install google-drive
+brew cask install google-backup-and-sync
 brew cask install evernote
 brew cask install 1password
 #brew cask install gimp
@@ -220,7 +220,7 @@ brew install ffmpeg
 ##tools
 brew cask install betterzip
 brew cask install omnigraffle
-brew cask install sitesucker
+#brew cask install sitesucker
 brew cask install unetbootin
 brew install asciinema
 gem install showterm
@@ -240,7 +240,7 @@ brew cask install transmit
 brew cask install jdownloader
 #setup jdownloader
 open -a "JDownloader Installer"
-brew cask install utorrent
+#brew cask install utorrent
 #setup utorrent
 open -a "uTorrent"
 brew cask install vuze

@@ -31,6 +31,7 @@ brew cask install intellij-idea-ce
 brew cask install visual-studio-code
 #brew cask install jedit #sha256 mismatch
 brew install groovy
+brew install gradle
 brew cask install visualvm
 brew cask install jd-gui
 brew cask install eclipse-java

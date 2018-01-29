@@ -24,8 +24,9 @@ brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install java
-brew cask install java7
-brew cask install java6
+brew cask install caskroom/version/java8
+#brew cask install java7
+#brew cask install java6
 brew cask install intellij-idea
 brew cask install intellij-idea-ce
 brew cask install visual-studio-code

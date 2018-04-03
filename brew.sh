@@ -34,7 +34,6 @@ brew install findutils
 brew install gnu-sed --with-default-names
 # Install Bash 4.
 brew install bash
-brew tap homebrew/versions
 brew install bash-completion2
 # We installed the new shell, now we have to activate it
 echo "Adding the newly installed shell to the list of allowed shells"
@@ -57,7 +56,6 @@ brew install python
 brew install python3
 
 # Install ruby-build and rbenv
-brew install ruby
 brew install ruby-build
 brew install rbenv
 LINE='eval "$(rbenv init -)"'

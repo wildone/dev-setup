@@ -19,7 +19,6 @@ fi
 brew update
 
 # Install Cask
-brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install java

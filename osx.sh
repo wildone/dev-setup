@@ -185,9 +185,8 @@ defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
 # Set a blazingly fast keyboard repeat rate
-#defaults write NSGlobalDomain KeyRepeat -int 0
-defaults write NSGlobalDomain KeyRepeat -float 0.000000000001 #; defaults read-type NSGlobalDomain KeyRepeat; defaults read NSGlobalDomain KeyRepeat
-
+defaults write NSGlobalDomain KeyRepeat -int 1
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
 # Set language and text formats
 #defaults write NSGlobalDomain AppleLanguages -array "en"
@@ -713,6 +712,8 @@ defaults write com.apple.TextEdit RichText -int 0
 # Open and save files as UTF-8 in TextEdit
 defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
+# Set tab width to 4 instead of the default 8
+defaults write com.apple.TextEdit "TabWidth" '4'
 
 # Enable the debug menu in Disk Utility
 defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true

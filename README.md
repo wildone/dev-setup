@@ -244,9 +244,9 @@ Run all:
 
     $ ./.dots all
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`:
+Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh` and `pydev.sh`:
 
-    $ ./.dots bootstrap osxprep brew osx
+    $ ./.dots bootstrap osxprep brew osx pydev
 
 Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydev.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
 
@@ -634,7 +634,7 @@ The [bootstrap.sh script](#bootstrapsh-script) and [osx.sh script](#osxsh-script
   <br/>
 </p>
 
-I prefer iTerm2 over the stock Terminal, as it has some some additional [great features](https://www.iterm2.com/features.html). Download and install iTerm2 (the newest version, even if it says "beta release").
+I prefer iTerm2 over the stock Terminal, as it has some additional [great features](https://www.iterm2.com/features.html). Download and install iTerm2 (the newest version, even if it says "beta release").
 
 In Finder, drag and drop the iTerm Application file into the Applications folder.
 
@@ -1957,17 +1957,15 @@ See the [Credits Page](https://github.com/donnemartin/dev-setup/blob/master/CRED
 
 Feel free to contact me to discuss any issues, questions, or comments.
 
-* Email: [donne.martin@gmail.com](mailto:donne.martin@gmail.com)
-* Twitter: [@donne_martin](https://twitter.com/donne_martin)
-* GitHub: [donnemartin](https://github.com/donnemartin)
-* LinkedIn: [donnemartin](https://www.linkedin.com/in/donnemartin)
-* Website: [donnemartin.com](http://donnemartin.com)
+My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ### License
 
 This repository contains a variety of content; some developed by Donne Martin, and some from third-parties.  The third-party content is distributed under the license provided by those parties.
 
 The content developed by Donne Martin is distributed under the following license:
+
+*I am providing code and resources in this repository to you under an open source license.  Because this is my personal repository, the license you receive to my code and resources is from me and not my employer (Facebook).*
 
     Copyright 2015 Donne Martin
 

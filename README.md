@@ -689,7 +689,6 @@ The [brew.sh script](#brewsh-script) installs VirtualBox
 If you prefer to install it separately, you can download it [here](https://www.virtualbox.org/wiki/Downloads) or run:
 
     $ brew update
-    $ brew install caskroom/cask/brew-cask
     $ brew cask install --appdir="/Applications" virtualbox
 
 ### Vagrant
@@ -708,7 +707,6 @@ The [brew.sh script](#brewsh-script) installs Vagrant.
 If you prefer to install it separately, you can download it [here](https://www.vagrantup.com/) or run:
 
     $ brew update
-    $ brew install caskroom/cask/brew-cask
     $ brew cask install --appdir="/Applications" vagrant
 
 ### Docker
@@ -1648,7 +1646,6 @@ In terms of a GUI client for MySQL, I'm used to the official and free [MySQL Wor
 
 The [datastores.sh script](#datastoressh-script) installs MySQL Workbench.  If you prefer to install it separately, run:
 
-    $ brew install caskroom/cask/brew-cask
     $ brew cask install --appdir="/Applications" mysqlworkbench
 
 You can also find the MySQL Workbench download [here](http://www.mysql.com/downloads/workbench/). (**Note**: It will ask you to sign in, you don't need to, just click on "No thanks, just start my download!" at the bottom.)
@@ -1905,7 +1902,6 @@ The [android.sh script](#androidsh-script) installs Java.
 If you prefer to install it separately, you can download the JDK [here](http://www.oracle.com/technetwork/java/javase/downloads/index.html) or run:
 
     $ brew update
-    $ brew install caskroom/cask/brew-cask
     $ brew cask install --appdir="~/Applications" java
 
 ### Android SDK
@@ -1931,7 +1927,6 @@ The [android.sh script](#androidsh-script) installs Android Studio.
 If you prefer to install it separately, you can download it [here](https://developer.android.com/sdk/index.html) or run:
 
     $ brew update
-    $ brew install caskroom/cask/brew-cask
     $ brew cask install --appdir="~/Applications" android-studio
 
 ### IntelliJ IDEA
@@ -1946,7 +1941,6 @@ The [android.sh script](#androidsh-script) installs Java.
 If you prefer to install it separately, you can download it [here](https://www.jetbrains.com/idea/download/) or run:
 
     $ brew update
-    $ brew install caskroom/cask/brew-cask
     $ brew cask install --appdir="~/Applications" intellij-idea-ce
 
 ## Section 8: Misc

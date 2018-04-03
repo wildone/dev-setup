@@ -19,7 +19,6 @@ fi
 brew update
 
 # Install Cask
-brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 

@@ -96,7 +96,6 @@ brew cask install \
   font-ubuntu font-ubuntu-mono-powerline
 
 # Install Cask
-brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 

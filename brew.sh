@@ -216,6 +216,7 @@ brew install ffmpeg
 
 ##tools
 brew cask install betterzip
+brew cask install keka
 brew cask install omnigraffle
 #brew cask install sitesucker
 brew cask install unetbootin

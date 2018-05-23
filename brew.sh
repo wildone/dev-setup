@@ -134,6 +134,7 @@ brew install dark-mode
 #brew install exiv2
 brew install git
 brew install git-lfs
+git lfs install
 brew install git-flow
 brew install git-extras
 brew install hub

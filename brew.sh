@@ -181,7 +181,7 @@ brew install qemu
 brew cask install vagrant
 brew cask install macdown
 brew cask install brackets
-brew install ansible
+#brew install ansible #install using python in your after you run workon
 brew cask install mitmproxy
 
 # Misc casks

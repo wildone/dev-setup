@@ -26,17 +26,17 @@ brew cask install caskroom/version/java8
 #brew cask install java7
 #brew cask install java6
 brew cask install intellij-idea
-brew cask install intellij-idea-ce
+#brew cask install intellij-idea-ce
 brew cask install visual-studio-code
 #brew cask install jedit #sha256 mismatch
 brew install groovy
 brew install gradle
 brew cask install visualvm
 brew cask install jd-gui
-brew cask install eclipse-java
+#brew cask install eclipse-java
 brew install maven
 brew install libxml2
-brew install ant
+#brew install ant
 
 # Remove outdated versions from the cellar.
 brew cleanup

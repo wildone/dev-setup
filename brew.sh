@@ -197,6 +197,7 @@ brew install qemu
 
 # Misc casks
 brew cask install google-chrome
+brew cask install brave-browser
 brew cask install firefox
 brew cask install opera
 brew cask install tor-browser

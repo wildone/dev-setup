@@ -199,7 +199,7 @@ brew install qemu
 brew cask install google-chrome
 brew cask install firefox
 brew cask install opera
-brew cask install torbrowser
+brew cask install tor-browser
 brew cask install skype
 brew cask install slack
 brew cask install dropbox

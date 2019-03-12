@@ -75,7 +75,7 @@ brew tap homebrew/cask-fonts
 brew cask install \
   font-anonymous-pro \
   font-dejavu-sans-mono-for-powerline \
-  font-droid-sans-mono font-droid-sans-mono-for-powerline \
+  font-droid-sans-mono-for-powerline \
   font-meslo-lg font-input \
   font-inconsolata font-inconsolata-for-powerline \
   font-liberation-mono font-liberation-mono-for-powerline \
@@ -87,7 +87,7 @@ brew cask install \
   font-roboto \
   font-source-code-pro font-source-code-pro-for-powerline \
   font-source-sans-pro \
-  font-ubuntu font-ubuntu-mono-powerline
+  font-ubuntu
 
 # Install Cask
 brew tap caskroom/versions

@@ -21,6 +21,7 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+#add java early to meet dependencies
 brew cask install homebrew/cask-versions/java8
 
 # Install GNU core utilities (those that come with OS X are outdated).

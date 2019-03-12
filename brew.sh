@@ -78,7 +78,7 @@ brew cask install \
   font-droid-sans-mono-for-powerline \
   font-meslo-lg font-input \
   font-inconsolata font-inconsolata-for-powerline \
-  font-liberation-mono font-liberation-mono-for-powerline \
+  font-liberation-mono-for-powerline \
   font-liberation-sans \
   font-meslo-lg \
   font-nixie-one \

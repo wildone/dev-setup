@@ -243,13 +243,17 @@ Run all:
 
     $ ./.dots all
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh` and `pydev.sh`:
+Run Brew and Python uses: `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh` and `pydev.sh`:
 
     $ ./.dots bootstrap osxprep brew osx pydev
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydev.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
+Run Brew and PyData with AWS and DB's that uses: `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydev.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
 
     $ ./.dots bootstrap osxprep brew osx pydata aws datastores
+		
+Run Brew, Java and Python uses: `bootstrap.sh`, `osxprep.sh`, `brew.sh`, `osx.sh`, `java.sh` and `pydev.sh`:
+
+    $ ./.dots bootstrap osxprep brew osx java pydev
 
 #### Running without Git
 
@@ -257,28 +261,30 @@ Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydev.sh`, `pydata.s
 
 #### Scripts
 
-* [.dots](https://github.com/donnemartin/dev-setup/blob/master/.dots)
+* [.dots](https://github.com/wildone/dev-setup/blob/master/.dots)
     * Runs specified scripts
-* [bootstrap.sh](https://github.com/donnemartin/dev-setup/blob/master/bootstrap.sh)
+* [bootstrap.sh](https://github.com/wildone/dev-setup/blob/master/bootstrap.sh)
     * Syncs dev-setup to your local home directory `~`
-* [osxprep.sh](https://github.com/donnemartin/dev-setup/blob/master/osxprep.sh)
+* [osxprep.sh](https://github.com/wildone/dev-setup/blob/master/osxprep.sh)
     * Updates OS X and installs Xcode command line tools
-* [brew.sh](https://github.com/donnemartin/dev-setup/blob/master/brew.sh)
+* [brew.sh](https://github.com/wildone/dev-setup/blob/master/brew.sh)
     * Installs common Homebrew formulae and apps
-* [osx.sh](https://github.com/donnemartin/dev-setup/blob/master/osx.sh)
+* [osx.sh](https://github.com/wildone/dev-setup/blob/master/osx.sh)
     * Sets up OS X defaults geared towards developers
-* [pydev.sh](https://github.com/donnemartin/dev-setup/blob/master/pydev.sh)
+* [pydev.sh](https://github.com/wildone/dev-setup/blob/master/pydev.sh)
     * Sets up python and virtualenv
-* [pydata.sh](https://github.com/donnemartin/dev-setup/blob/master/pydata.sh)
+* [pydata.sh](https://github.com/wildone/dev-setup/blob/master/pydata.sh)
     * Sets up python for data analysis
-* [aws.sh](https://github.com/donnemartin/dev-setup/blob/master/aws.sh)
+* [aws.sh](https://github.com/wildone/dev-setup/blob/master/aws.sh)
     * Sets up Spark, Hadoop MapReduce, and Amazon Web Services
-* [datastores.sh](https://github.com/donnemartin/dev-setup/blob/master/datastores.sh)
+* [datastores.sh](https://github.com/wildone/dev-setup/blob/master/datastores.sh)
     * Sets up common data stores
-* [web.sh](https://github.com/donnemartin/dev-setup/blob/master/web.sh)
+* [web.sh](https://github.com/wildone/dev-setup/blob/master/web.sh)
     * Sets up JavaScript web development
-* [android.sh](https://github.com/donnemartin/dev-setup/blob/master/android.sh)
+* [android.sh](https://github.com/wildone/dev-setup/blob/master/android.sh)
     * Sets up Android development
+* [java.sh](https://github.com/wildone/dev-setup/blob/master/java.sh)
+    * Sets up Java development
 
 **Notes:**
 
@@ -719,27 +725,16 @@ Docker automates the deployment of applications inside software containers.  I t
 
 #### Installation
 
-The [brew.sh script](#brewsh-script) installs Docker.
+The [brew.sh script](#brewsh-script) installs Docker Engine.
 
 If you prefer to install it separately, you can download it [here](https://www.docker.com/) or run:
 
-    $ brew update
-    $ brew install docker
-    $ brew install boot2docker
-
-#### Configuration
-
-Initialize and start `boot2docker` (only need to do this once):
-
-    $ boot2docker init
-
-Start the VM:
-
-    $ boot2docker up
-
-Set the `DOCKER_HOST` environment variable and fill in IP and PORT based on the output from the `boot2coker up` command:
-
-    $ export DOCKER_HOST=tcp://IP:PORT
+	brew update
+	brew cask install docker
+	brew install bash-completion
+	brew install docker-completion
+	brew install docker-compose-completion
+	brew install docker-machine-completion
 
 ### Git
 
@@ -1952,11 +1947,6 @@ Bug reports, suggestions, and pull requests are [welcome](https://github.com/don
 
 See the [Credits Page](https://github.com/donnemartin/dev-setup/blob/master/CREDITS.md).
 
-## Contact Info
-
-Feel free to contact me to discuss any issues, questions, or comments.
-
-My contact info can be found on my [GitHub page](https://github.com/donnemartin).
 
 ### License
 

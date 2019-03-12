@@ -165,6 +165,8 @@ brew link libxslt --force
 brew install heroku/brew/heroku
 heroku update
 
+#Readline
+brew install readline
 
 # Core casks
 #brew cask install alfred

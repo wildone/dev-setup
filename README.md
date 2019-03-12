@@ -10,7 +10,7 @@ Quick Start
 4. Then run:
 
 	cd dev-setup/
-	./.dots all
+	./.dots bootstrap osxprep brew osx java pydev devops
 
 
 dev-setup 
@@ -90,6 +90,8 @@ This repo takes a more **light-weight** approach to automation using a combinati
     * Sets up General development
 * [java.sh script](#javash-script)
     * Sets up Java development
+* [devops.sh script](#devops-script)
+    * Sets up Devops tools
 
 ## Section 2: General Apps and Tools
 
@@ -266,9 +268,9 @@ Run Brew and PyData with AWS and DB's that uses: `bootstrap.sh`, `osxprep.sh`, `
 
     $ ./.dots bootstrap osxprep brew osx pydata aws datastores
 		
-Run Brew, Java and Python uses: `bootstrap.sh`, `osxprep.sh`, `brew.sh`, `osx.sh`, `java.sh` and `pydev.sh`:
+Run Brew, Java, DevOps and Python uses: `bootstrap.sh`, `osxprep.sh`, `brew.sh`, `osx.sh`, `java.sh` and `pydev.sh`:
 
-    $ ./.dots bootstrap osxprep brew osx java pydev
+    $ ./.dots bootstrap osxprep brew osx java pydev devops
 
 #### Running without Git
 

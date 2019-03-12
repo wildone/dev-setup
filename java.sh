@@ -38,5 +38,11 @@ brew install maven
 brew install libxml2
 #brew install ant
 
+#install rbenv and bundler
+export RUBY_CONFIGURE_OPTS=--with-readline-dir="$(brew --prefix readline)"
+rbenv install __VERSION__
+rbenv global __VERSION__
+gem install bundler
+
 # Remove outdated versions from the cellar.
 brew cleanup

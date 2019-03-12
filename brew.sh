@@ -262,6 +262,9 @@ brew cask install github
 # Link cask apps to Alfred
 #brew cask alfred link
 
+#Add calibre
+brew cask install --appdir="~/Applications" calibre
+
 # Install Docker
 brew case install docker
 brew install bash-completion

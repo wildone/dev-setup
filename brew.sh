@@ -75,7 +75,6 @@ brew tap caskroom/fonts
 brew cask install \
   font-anonymous-pro \
   font-dejavu-sans-mono-for-powerline \
-  font-droid-sans \
   font-droid-sans-mono font-droid-sans-mono-for-powerline \
   font-meslo-lg font-input \
   font-inconsolata font-inconsolata-for-powerline \

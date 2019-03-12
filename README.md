@@ -1,4 +1,19 @@
-dev-setup
+Quick Start
+============
+
+1. Go to the AppStore and Download and install Xcode
+2. Open Xcode and accept its terms
+3. Clone this repository using the Terminal into your home folder:
+
+	git clone https://github.com/wildone/dev-setup.git
+
+4. Then run:
+
+	cd dev-setup/
+	./.dots all
+
+
+dev-setup 
 ============
 
 <p align="center">

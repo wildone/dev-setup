@@ -31,4 +31,4 @@ npm install -g less
 npm install -g repoman
 npm install -g gulp
 
-gem install jekyll bundler
+gem install jekyll

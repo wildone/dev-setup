@@ -5,17 +5,22 @@ Quick Start
 2. Open Xcode and accept its terms
 3 Run this in terminal and agree
 
-	sudo xcodebuild -license
+```bash
+sudo xcodebuild -license
+```
 
 4. Clone this repository using the Terminal into your home folder:
 
-	git clone https://github.com/wildone/dev-setup.git
+```bash
+git clone https://github.com/wildone/dev-setup.git
+```
 
 5. Then run:
 
-	cd dev-setup/
-	./.dots bootstrap osxprep brew osx java pydev devops
-
+```bash
+cd dev-setup/
+./.dots bootstrap osxprep brew osx java pydev devops
+```
 
 dev-setup 
 ============

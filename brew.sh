@@ -55,12 +55,6 @@ brew install narwhal
 brew install python
 brew install python3
 
-# Install ruby-build and rbenv
-brew install ruby-build
-brew install rbenv
-LINE='eval "$(rbenv init -)"'
-grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
-
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
 brew install homebrew/dupes/grep
@@ -101,6 +95,19 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 brew cask install java
 #brew cask install java7
 brew cask install xquartz
+
+# Install ruby-build and rbenv
+brew install ruby-build
+brew install rbenv
+LINE='eval "$(rbenv init -)"'
+grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
+
+#install rbenv and bundler
+export RUBY_CONFIGURE_OPTS=--with-readline-dir="$(brew --prefix readline)"
+rbenv install __VERSION__
+rbenv global __VERSION__
+gem install bundler
+
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
 brew install aircrack-ng #needs java 1.7+

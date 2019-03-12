@@ -71,7 +71,7 @@ brew install sfnt2woff
 brew install sfnt2woff-zopfli
 brew install woff2
 
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 brew cask install \
   font-anonymous-pro \
   font-dejavu-sans-mono-for-powerline \

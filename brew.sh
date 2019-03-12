@@ -283,6 +283,7 @@ brew install docker-machine-completion
 #brew install boot2docker
 
 # add mouse drivers
+brew tap homebrew/cask-drivers
 brew cask install logitech-gaming-software
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins

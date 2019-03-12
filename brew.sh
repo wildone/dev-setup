@@ -260,7 +260,12 @@ brew cask install github
 # Link cask apps to Alfred
 #brew cask alfred link
 
-# Install Docker, which requires virtualbox
+# Install Docker
+brew case install docker
+brew install bash-completion
+brew install docker-completion
+brew install docker-compose-completion
+brew install docker-machine-completion
 #brew install docker
 #brew install boot2docker
 

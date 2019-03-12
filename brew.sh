@@ -106,8 +106,8 @@ grep -q "$LINE" ~/.extra || echo "$LINE" >> ~/.extra
 
 #install rbenv and bundler
 export RUBY_CONFIGURE_OPTS=--with-readline-dir="$(brew --prefix readline)"
-rbenv install __VERSION__
-rbenv global __VERSION__
+rbenv install 2.6.1
+rbenv global 2.6.1
 gem install bundler
 
 

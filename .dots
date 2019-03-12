@@ -111,6 +111,14 @@ function runDots() {
             echo ""
             ./dev.sh
         fi
+        if [ $ARG == "devops" ] || [ $ARG == "all" ]; then
+            # Run the devops.sh Script
+            echo "------------------------------"
+            echo "Setting up Devops environment."
+            echo "------------------------------"
+            echo ""
+            ./devops.sh
+        fi
     done
 
     echo "------------------------------"

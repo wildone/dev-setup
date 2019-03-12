@@ -274,8 +274,8 @@ brew cask install github
 brew cask install --appdir="~/Applications" calibre
 
 # Install Docker
-brew case install docker
-brew install bash-completion
+brew cask install docker
+#brew install bash-completion
 brew install docker-completion
 brew install docker-compose-completion
 brew install docker-machine-completion

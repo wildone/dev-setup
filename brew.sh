@@ -162,7 +162,7 @@ brew link libxml2 --force
 brew link libxslt --force
 
 # Install Heroku
-brew install heroku-toolbelt
+brew install heroku/brew/heroku
 heroku update
 
 

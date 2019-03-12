@@ -167,22 +167,22 @@ heroku update
 
 
 # Core casks
-brew cask install alfred
+#brew cask install alfred
 brew cask install quicksilver
-brew cask install sizeup
+#brew cask install sizeup
 brew cask install --appdir="~/Applications" iterm2
 
 # Development tool casks
 brew cask install sublime-text
-brew cask install atom
+#brew cask install atom
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
 brew install qemu
-brew cask install vagrant
-brew cask install macdown
-brew cask install brackets
+#brew cask install vagrant
+#brew cask install macdown
+#brew cask install brackets
 #brew install ansible #install using python in your after you run workon
-brew cask install mitmproxy
+#brew cask install mitmproxy
 
 # Misc casks
 brew cask install google-chrome
@@ -193,7 +193,7 @@ brew cask install skype
 brew cask install slack
 brew cask install dropbox
 brew cask install google-backup-and-sync
-brew cask install evernote
+#brew cask install evernote
 brew cask install 1password
 #brew cask install gimp
 #brew cask install inkscape
@@ -217,8 +217,8 @@ brew install ffmpeg
 
 ##tools
 brew cask install betterzip
-brew cask install keka
-brew cask install omnigraffle
+#brew cask install keka
+#brew cask install omnigraffle
 #brew cask install sitesucker
 brew cask install unetbootin
 brew install asciinema
@@ -231,17 +231,17 @@ brew cask install webex-nbr-player
 #setup app store api
 brew install mas
 #install memory clean
-mas install 451444120
+#mas install 451444120
 
 #brew cask install tg-pro #sha256 mismatch
 brew cask install charles
-brew cask install transmit
+#brew cask install transmit
 brew cask install jdownloader
 #setup jdownloader
 open -a "JDownloader Installer"
 #brew cask install utorrent
 #setup utorrent
-open -a "uTorrent"
+#open -a "uTorrent"
 brew cask install vuze
 brew install openvpn
 brew cask install tunnelblick
@@ -250,25 +250,25 @@ brew cask install little-snitch
 open -a "Little Snitch Installer"
 
 #dev source
-brew cask install sourcetree
+#brew cask install sourcetree
 brew cask install github
-brew cask install versions
+#brew cask install versions
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install mactex
 
 # Link cask apps to Alfred
-brew cask alfred link
+#brew cask alfred link
 
 # Install Docker, which requires virtualbox
-brew install docker
-brew install boot2docker
+#brew install docker
+#brew install boot2docker
 
 # add mouse drivers
 brew cask install logitech-gaming-software
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip qlimagesize webpquicklook suspicious-package
 
 # Remove outdated versions from the cellar.
 brew cleanup

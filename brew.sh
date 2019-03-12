@@ -59,10 +59,10 @@ brew install python
 brew install python3
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+#brew install vim
+brew install grep
+brew install openssh
+brew install screen
 #brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.

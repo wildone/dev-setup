@@ -22,8 +22,8 @@ brew update
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 brew cask install java
-brew tap caskroom/versions
-brew cask install java8
+#brew tap caskroom/versions
+#brew cask install java8
 #brew cask install java7
 #brew cask install java6
 brew cask install intellij-idea

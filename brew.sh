@@ -94,7 +94,8 @@ brew tap caskroom/versions
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 #Core System Casks
-brew cask install java
+brew cask install homebrew/cask-versions/java8
+#brew cask install java
 #brew cask install java7
 brew cask install xquartz
 

@@ -62,6 +62,7 @@ brew install python3
 #brew install vim
 brew install grep
 brew install openssh
+brew install gnupg
 brew install screen
 #brew install homebrew/php/php55 --with-gmp
 

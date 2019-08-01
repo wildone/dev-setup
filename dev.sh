@@ -26,6 +26,7 @@ brew install autoconf
 brew install automake
 brew install gpg
 brew install gpgtools
+brew cask install gpg-suite
 brew install saxon
 
 # Remove outdated versions from the cellar.

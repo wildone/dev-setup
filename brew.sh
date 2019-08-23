@@ -63,6 +63,12 @@ brew install python3
 brew install grep
 brew install openssh
 brew install gnupg
+brew install gnupg2
+brew install pinentry-mac
+echo "pinentry-program /usr/local/bin/pinentry-mac" >> ~/.gnupg/gpg-agent.conf
+echo "no-tty" >> ~/.gnupg/gpg.conf
+git config --global gpg.program gpg
+git config --global commit.gpgsign true
 brew install screen
 #brew install homebrew/php/php55 --with-gmp
 

@@ -196,6 +196,7 @@ brew cask install sublime-text
 #brew cask install atom
 brew cask install virtualbox
 brew cask install virtualbox-extension-pack
+brew cask install minikube
 brew install qemu
 #brew cask install vagrant
 #brew cask install macdown

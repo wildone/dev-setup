@@ -16,6 +16,7 @@
 #  10.  Java Tools
 #  11.  MiscTools
 #  12.  Python
+#  13.  GEM Config
 #
 #  ---------------------------------------------------------------------------
 
@@ -412,4 +413,10 @@ gpip(){
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
 eval "$(rbenv init -)"
+
+#   ---------------------------------------
+#   13.  GEM Config
+#   ---------------------------------------
+export GEM_HOME=$HOME/.gem
+export PATH=$GEM_HOME/bin:$PATH
 

@@ -29,7 +29,7 @@ brew cask install java
 brew cask install intellij-idea
 #brew cask install intellij-idea-ce
 brew cask install visual-studio-code
-#brew cask install jedit #sha256 mismatch
+brew cask install jedit
 brew install groovy
 brew install gradle
 brew cask install visualvm

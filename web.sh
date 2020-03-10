@@ -20,6 +20,9 @@ brew update
 
 brew install node npm
 
+brew install nvm
+mkdir ~/.nvm
+
 # Remove outdated versions from the cellar.
 brew cleanup
 
